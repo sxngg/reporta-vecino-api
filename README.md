@@ -1,6 +1,6 @@
 # reporta-vecino-api
 
-UrbanWatch is a platform designed to empower citizens to report and manage public complaints about urban and community issues. It allows users to document and share information about problems such as potholes, litter accumulation, vandalism, and more, with the goal of improving the quality of life in the community.
+UrbanWatch API is the backend service for the UrbanWatch platform, a centralized system for citizens to report and manage public complaints about urban and community issues. This API facilitates communication between the frontend application and the database, handling requests for reporting complaints, retrieving complaint data, and managing user interactions.
 
 - [About](#about)
 - [Features](#features)
@@ -8,21 +8,17 @@ UrbanWatch is a platform designed to empower citizens to report and manage publi
 - [Installation](#installation)
 
 ## About
-UrbanWatch provides a centralized platform for citizens to report and track public complaints, facilitating communication between communities and local authorities for more efficient problem resolution.
+UrbanWatch API serves as the backbone of the UrbanWatch platform, providing essential functionalities for managing public complaints. It handles the storage and retrieval of complaint data, user authentication, and interaction with external services such as map APIs for geolocation.
 
-## Features
-- Report public complaints
-- View complaints on a map
-- Track the status of submitted complaints
 
 ## Technologies
-- Frontend: Angular 17
-- Stlye: Tailwind
-- Maps: Liflet or Mapkick
+- Backend Framework: .NET 7
+- Database: MongoDB
+- Authentication: JSON Web Tokens (JWT)
+- External Services Integration: Liflet / Mapkick
 
 ## Installation
 ```bash
 # Example installation steps
 git clone https://github.com/sxngg/reporta-vecino-api.git
 cd reporta-vecino-api
-npm install
